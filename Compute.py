@@ -308,24 +308,24 @@ for r in fr2:
         
         if option  == 0:
             result = firstDef(MWE,definitions)
-            print(str(result[0])+' '+str(result[1])+'\n')
+            print(str(result[0])+' '+str(result[1]))
         elif option ==1:
             result = voteDefs(MWE,definitions)
-            print(str(result[0])+' '+str(result[1])+'\n')
+            print(str(result[0])+' '+str(result[1]))
         elif option ==2:
             result = hasIdiom(MWE,definitions)
-            print(str(result[0])+' '+str(result[1])+'\n')
+            print(str(result[0])+' '+str(result[1]))
         elif option==3:
             result = firstDefSyn(MWE,definitions)
-            print(str(result[0])+' '+str(result[1])+'\n')
+            print(str(result[0])+' '+str(result[1]))
             
         elif option==4:
             result = voteDefSyn(MWE,definitions)
-            print(str(result[0])+' '+str(result[1])+'\n')
+            print(str(result[0])+' '+str(result[1]))
             
         elif option ==5:
             result = hasIdiomSyn(MWE,definitions)
-            print(str(result[0])+' '+str(result[1])+'\n')
+            print(str(result[0])+' '+str(result[1]))
             
         elif option==6:
             translations()
