@@ -332,7 +332,7 @@ for r in fr2:
         else:
             print('wrong choice!')
     else:
-        print('1 1\n')
+        print('1 1')
                 
     
  
